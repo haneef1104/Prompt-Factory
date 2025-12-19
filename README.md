@@ -99,6 +99,7 @@ factory/
 │   └── results/         # Generated output directory
 └── README.md
 ```
+<img width="1289" height="859" alt="9176137369cda925eeb59c4fd7213c13" src="https://github.com/user-attachments/assets/9d740f9c-efa9-4c14-b868-048c11da0083" />
 
 AI 提示词工厂 - 自动化生成高质量提示词套件
 
@@ -197,3 +198,5 @@ factory/
 │   └── results/         # 生成结果输出目录
 └── README.md
 ```
+<img width="1289" height="855" alt="5c2e4984986f2a17ecc365703b684cba" src="https://github.com/user-attachments/assets/403f2623-5e21-4423-88c1-55c6cc434d54" />
+
